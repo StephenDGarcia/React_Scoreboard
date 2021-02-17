@@ -29,7 +29,7 @@ const Counter = () => {
    );
 }
 
-cosnt App = () => {
+const App = () => {
     return (
         <div className="scoreboard">
             <Header title="Scoreboard" totalPlayer={1} />
