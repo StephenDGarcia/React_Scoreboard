@@ -13,7 +13,10 @@ const Player = () => {
             <span className="player-name">
                 Stephen
             </span>
-        );
+
+        <Counter />
+       </div> 
+    );
 }
 
 const Counter = () => {
@@ -22,7 +25,6 @@ const Counter = () => {
         <button className="counter-action decrement">-</button>
         <span className="counter-score">35</span>
         <button className="counter-action increment">+</button>
-    </div>
     </div>
    );
 }
